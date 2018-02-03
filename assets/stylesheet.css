@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'league-spartan'; /*a name to be used later*/
+    src: url('LeagueSpartan-Bold.otf') format('opentype');/*URL to font*/
+}
+
+/*
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+hr {
+    width:100%;
+    color: white;
+    border-style: solid;
+}
+
+.showcase {
+  position: absolute;
+  left: 26%;
+  top: 51%;
+  padding: 0 20px;
+}
+
+.primary {
+    position: absolute;
+    left: 43%;
+    top: 21%;
+}
+
+.circleimg {
+    border-radius: 50%;
+    border: 6px solid white;
+    width: 225px;
+    height: 225px;
+}
+
+h1, h2 {
+    color: white;
+}
+.monospace {
+    margin-top: 2%;
+    font-family: 'Inconsolata', monospace;
+    color: solid white;
+}
+
+.openSansFont {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.hoverchange:hover .fa-discord{
+    display: none;
+}
+
+.hoverchange:hover a.discord:after{
+    content: 'TheOnlyArtz#5743';
+}
+
+.hoverchange {
+    margin-left: 7%;
+}
+.hoverchange:hover{
+    margin-left: -7%;
+}
